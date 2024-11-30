@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Sathwik Reddy Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Java Full Stack Developer</p>
+            <h1>Hi, I'm <span>Sathwik Reddy </span><br> From USA</h1>
+            <p > A dedicated Software Engineer with over 6 years of experience in full-stack development and cloud-based solutions.  </p>
+        
+        </div>
+    </div>
+</div>
+<!-- -----------about---------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.jpeg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p> I am a experienced Java  Full Stack Developer over 6 years of professional expertise in the field. Throughout my career, I have had the privilage of collaborating with prestigious organizations,contributing to their success and growth.
+                </p> 
+                <br>
+                <p> My passion lies in building innovative and scalable applications, leveraging modern technologies like Java, Node.js, React, Angular, and AWS services such as Lambda, S3, DynamoDB, and more. </p>
+                <br>
+                <p>My professional journey spans collaborating with cross-functional teams, adhering to Agile methodologies, and solving complex technical challenges across diverse industries. Whether it’s building microservices, optimizing system performance, or designing responsive web interfaces, I am committed to delivering quality solutions that align with business goals.</p>
+               
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Front End Technologies</span><br>ReactJS, Angular, JavaScript, HTML5, CSS3, TypeScript, Redux, Bootstrap, Material UI, LESS, NodeJS</li>
+                        <li><span>Back End Technologies</span><br>  Java 8/11/17, Spring Boot, RESTful APIs, Microservices, Event-Driven Architecture, Apache Kafka</li>
+                        <li><span>DevOps & CI/CD Tools</span><br>Jenkins, Docker, Kubernetes, AWS CodePipeline, AWS CodeBuild, AWS CodeDeploy</li>
+                        <li><span>Database Management & Version Control</span><br>SQL (MySQL, PostgreSQL), NoSQL (MongoDB, DynamoDB), JPA/Hibernate, Git, GitHub, Bitbucket</li>
+                        <li><span>Testing & Automation</span><br>JUnit, Mockito, Karma, Jasmine, SonarQube, Postman, Swagger</li>
+                        <li><span>APIs & Web Services</span><br>RESTful APIs, GraphQL, Spring REST</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span> Current</span><br>Sr. Full Stack Java Developer at Mutual of Omaha </li>
+                        <li><span></span><br>Full Stack Java Developer at Carlson Wagonlit Travel-Stamford, CT</li>
+                        <li><span></span><br>Application Development Associate at </li>
+                        <li><span>2022</span><br>Full Stack Java Developer at Ikea</li>
+                        <li><span>2021</span><br>Conquerors Software Technologies Pvt. Ltd at Java Developer</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2024</span><br>Wilmington University</li>
+                       
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ---------services---------------- -->
+
+<!-- ----------portfolio------------ -->
+<div id="portfolio">
+    <p class="container"><center>
+        <h1 class="sub-title">My Work</h1>
+        <p>Passionate about creating impactful solutions, I thrive on challenges that allow me to innovate and grow. My portfolio showcases a range of projects that reflect my commitment to quality, creativity, and delivering results that exceed expectations. I am currently seeking opportunities where I can bring my expertise to make a meaningful contribution.</p>
+    </center>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/travel.jpg">
+                <div class="layer">
+                    <h3>Travel Booking and Management System</h3>
+                    <p>System was designed to streamline the travel booking process, enhance customer experience, and efficiently manage travel itineraries.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/inventory.jpg">
+                <div class="layer">
+                    <h3>Retail Inventory Management and Customer Experience Enhancement</h3>
+                    <p>To enhance inventory tracking, automate restocking, and deliver personalized shopping experiences both online and in-store</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/inventorymanagement.jpg">
+                <div class="layer">
+                    <h3>Insurance Policy Management and Claims Processing System</h3>
+                    <p>Designed and implemented a robust system to optimize insurance policy lifecycle management, claims processing, and customer service workflows.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+       </div>
+</div>
+<br>
+<br>
+<!-- ----------contact------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i> sathwikmfs08@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i> +1 445-226-2878</p>
+                <div class="social-icons">
+                    
+                    <a href="http://linkedin.com/in/sathwik-m-89396a332" target="_blank"><i class="fab fa-linkedin"><img src="./images/linkedin.png"></i></a>
+                </div>
+                <a href="images/SathwikFS_FTF1.docx" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Kevin. Made wtih <i class="fas fa-heart"></i> by <a href="https://www.youtube.com/channel/UCkjoHfkLEy7ZT4bA2myJ8xA?sub_confirmation=1">Easy Tutorials</a></p>
+    </div>
+</div>
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = '< add you own link here >' // add your own app script link here
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
